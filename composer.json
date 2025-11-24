@@ -2,7 +2,7 @@
     "name": "symfony/ai-mapbox-tool",
     "description": "Mapbox AI tool bridge for Symfony applications.",
     "license": "MIT",
-    "type": "library",
+    "type": "symfony-ai-tool",
     "keywords": ["ai", "bridge", "mapbox", "agent", "tool", "geocoding"],
     "authors": [
         {
@@ -32,6 +32,9 @@
         "sort-packages": true
     },
     "extra": {
+        "branch-alias": {
+            "dev-main": "0.x-dev"
+        },
         "thanks": {
             "name": "symfony/ai",
             "url": "https://github.com/symfony/ai"
